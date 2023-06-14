@@ -1,5 +1,11 @@
 package test1;
 
+/*
+ * 날짜 : 2023/06/14
+ * 이름 : 박한산
+ * 내용 : 자바 피보나치 수열 연습문제
+ * 
+ */
 public class Test10 {
 
 	public static void main(String[] args) {
@@ -18,6 +24,7 @@ public class Test10 {
 			System.out.print(n3 + ", ");
 			
 			n1 = n2;
+			n2 = n3;
 		}
 	}
 }

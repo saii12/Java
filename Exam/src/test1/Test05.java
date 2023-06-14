@@ -1,5 +1,11 @@
 package test1;
 
+/*
+ * 날짜 : 2023/06/14
+ * 이름 : 박한산
+ * 내용 : 자바 조건문 연습문제
+ * 
+ */
 import java.util.Scanner;
 
 public class Test05 {
@@ -20,6 +26,7 @@ public class Test05 {
 			break;
 		case 8:
 			System.out.println("B 입니다.");
+			break;
 		case 7:	
 			System.out.println("C 입니다.");
 			break;

@@ -1,5 +1,11 @@
 package test1;
 
+/*
+ * 날짜 : 2023/06/14
+ * 이름 : 박한산
+ * 내용 : 자바 삼항연산자 연습문제
+ * 
+ */
 import java.util.Scanner;
 
 public class Test06 {

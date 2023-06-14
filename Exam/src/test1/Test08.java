@@ -1,5 +1,11 @@
 package test1;
 
+/*
+ * 날짜 : 2023/06/14
+ * 이름 : 박한산
+ * 내용 : 자바 반복문 연습문제
+ * 
+ */
 public class Test08 {
 
 	public static void main(String[] args) {
@@ -8,7 +14,7 @@ public class Test08 {
 		
 		for(int i = 0; i < n; i++) {
 			
-			for(int j = n - 1; j < i ; j--) {
+			for(int j = n - 1; j > i ; j--) {
 				System.out.print(" ");
 			}
 			
