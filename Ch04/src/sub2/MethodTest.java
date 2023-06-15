@@ -46,7 +46,7 @@ public class MethodTest {
 	// 메서드 정의
 	public static int sum(int start, int end) {
 		
-		// 지역변수 : 메서드가 종료되면 스택에서 해제되느 변수
+		// 지역변수 : 메서드가 종료되면 스택에서 해제되는 변수
 		int total = 0;
 		for(int k = start; k <= end; k++) {
 			
