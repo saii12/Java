@@ -9,6 +9,7 @@ public class ForTest {
 		}
 		
 		int sum = 0;
+		
 		for(int k = 1; k <= 10; k++) {
 			
 			sum += k ;
@@ -26,6 +27,6 @@ public class ForTest {
 			}
 		}
 		
-		System.out.println("1부터 10까지 짝수합 : " + tot);
+		System.out.println("1부터 10까지 짝수합 : " + tot); // for문 끝나고 출력
 	}
 }
