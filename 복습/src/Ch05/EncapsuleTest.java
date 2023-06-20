@@ -13,5 +13,10 @@ public class EncapsuleTest {
 	avante.speedUp(60);
 	avante.speedDown(20);
 	avante.show();
+	
+	Account2 kb = new Account2("", "", "", 10000);
+	kb.deposit(0);
+	kb.withdraw(0);
+	kb.show();
 	}
 }
