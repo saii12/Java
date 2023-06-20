@@ -9,7 +9,7 @@ public class Car {
 	
 	// 생성자 : 캡슐화된 속성을 초기화하기 위한 메서드
 	public Car(String name, String color, int speed) {
-		this.name = name;
+		this.name = name; // => 변수name에 name을 대입하라
 		this.color = color;
 		this.speed = speed;
 		
