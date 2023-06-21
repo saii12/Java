@@ -49,7 +49,7 @@ public class StaticTest {
 		grande.show();
 		
 		// 클래스 변수 참조
-		System.out.println("전체 차량수 : " + Car.count); // Car.show X static 일 경우만 가능
+		System.out.println("전체 차량수 : " + Car.count); // Car.show X static(즉 클래스 변수,  클래스 메서드)일 경우만 가능
 		
 		//클래스 메서드 호출
 		System.out.println("현재 차량수 : " + Car.getCount()); 
