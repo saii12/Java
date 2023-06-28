@@ -4,5 +4,5 @@ package ch02.sec01;
  * 내용 : p.37 예제
  * 
  */
-public class VariableUseExample {
+public class VariableUse {
 	}
