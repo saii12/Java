@@ -2,21 +2,18 @@ package step2;
 
 import java.util.Scanner;
 
-public class Test01 {
-
+public class Test03 {
+  
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
 		int a = sc.nextInt();
-		int b = sc.nextInt();
 		
-		if(a > b) {
-			System.out.println(">");
-		} else if(a < b) {
-			System.out.println("<");
+		if((a % 4 == 0 && a % 100 != 0) || a % 400 == 0  ) { // &&(and) ||(or)
+			System.out.println(1);
 		} else {
-			System.out.println("==");
+			System.out.println(0);
 		}
 	}
 }
