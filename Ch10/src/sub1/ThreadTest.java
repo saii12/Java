@@ -13,8 +13,6 @@ public class ThreadTest {
 
 	public static void main(String[] args) {
 		
-	{
-		
 		// 스레드 객체 생성
 		SubThread st1 = new SubThread("sub1");
 		SubThread st2 = new SubThread("sub2");
@@ -38,5 +36,4 @@ public class ThreadTest {
 		
 		System.out.println("Main Thread 종료...");
 		}
-	}
 }

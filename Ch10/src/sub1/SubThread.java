@@ -4,7 +4,7 @@ public class SubThread extends Thread {
 
 	private String name;
 	
-	public SubThread(String name) {
+	public SubThread(String name) {								
 		this.name = name;
 	}
 	
