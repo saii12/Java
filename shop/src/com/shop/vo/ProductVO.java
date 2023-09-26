@@ -45,6 +45,6 @@ public class ProductVO {
 	
 	@Override
 	public String toString() {
-		return prodNo+","+prodName+","+stock+","+price+","+company;
+		return prodNo+","+prodName+","+stock+","+price+","+company; //tostring 정의를 통해 현재 클래스의 속성값을 보여준다. 
 	}
 }

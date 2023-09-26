@@ -63,7 +63,7 @@ public class OrderVO {
 	}
 	
 	@Override
-	public String toString() { // toString 왜 하는겨???
+	public String toString() { // toString 왜 하는겨??? 객체가 가진 속성 값을 나타내기 위해, 이거 안하면 고유값?같은 이상한 값이 나옴
 		return orderNo+","+name+","+prodName+","+orderCount+","+orderDate;
 	}
 	
