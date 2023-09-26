@@ -39,7 +39,7 @@ public class FunctionalTest {
 		a2.method();
 		
 		// 함수형 프로그래밍 방식(람다식)
-		A a3 = () -> {System.out.println("method 실행...");}; // ()매개변수 {}본문 들어감
+		A a3 = () -> {System.out.println("method 실행...");}; // ()는 매개변수 {}는 본문 들어감
 		a3.method();
 	}
 }
